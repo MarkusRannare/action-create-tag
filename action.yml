@@ -18,6 +18,10 @@ inputs:
     description: "Optional. Force push the tag. Defaults to 'false'."
     required: false
     default: "false"
+  path: 
+    description: "Optional. The path used in checkout. Defaults to ''"
+    required: false
+    default: ""
 runs:
   using: "docker"
   image: "Dockerfile"

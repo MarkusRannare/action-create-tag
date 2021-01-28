@@ -30,6 +30,11 @@ Simple GitHub action that can be used to create/update a tag and push it to the 
 **Optional**. It's no need to specify it if you use checkout@v2. Required for
 checkout@v1 action.
 
+### `path`
+
+**Optional**. If you specified path for checkout, then you need to specify it here too
+
+
 ## Example usage
 
 ```yml

@@ -1,7 +1,7 @@
 #!/bin/sh
 set -eu
 
-cd "${GITHUB_WORKSPACE}" || exit
+cd "${GITHUB_WORKSPACE}/${INPUT_PATH}" || exit
 
 if [ -z "${INPUT_TAG}" ]; then
   echo "[action-create-tag] No-tag was supplied! Please supply a tag."
